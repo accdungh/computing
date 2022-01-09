@@ -39,7 +39,7 @@ import { mapGetters, mapActions } from "vuex";
 const RSS = {
   "Phú Yên": "https://xskt.com.vn/rss-feed/phu-yen-xspy.rss",
   "Đắc Lắc": "https://xskt.com.vn/rss-feed/dac-lac-xsdlk.rss",
-  "Khánh Hoà": "https://kqxs.net.vn/rss-feed/xo-so-khanh-hoa-xskh.rss",
+  "Khánh Hoà": "http://kqxs.info/rss-feed/khanh-hoa-xskh.rss",
   "Bình Định": "https://xskt.com.vn/rss-feed/binh-dinh-xsbdi.rss",
   "Quảng Bình": "https://xskt.com.vn/rss-feed/quang-binh-xsqb.rss",
   "Gia Lai": "https://xskt.com.vn/rss-feed/gia-lai-xsgl.rss",
