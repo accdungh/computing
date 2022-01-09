@@ -39,7 +39,7 @@ import { mapGetters, mapActions } from "vuex";
 const RSS = {
   "Phú Yên": "https://xskt.com.vn/rss-feed/phu-yen-xspy.rss",
   "Đắc Lắc": "https://xskt.com.vn/rss-feed/dac-lac-xsdlk.rss",
-  "Khánh Hoà": "http://kqxs.info/rss-feed/khanh-hoa-xskh.rss",
+  "Khánh Hoà": "https://xskt.com.vn/rss-feed/khanh-hoa-xskh.rss",
   "Bình Định": "https://xskt.com.vn/rss-feed/binh-dinh-xsbdi.rss",
   "Quảng Bình": "https://xskt.com.vn/rss-feed/quang-binh-xsqb.rss",
   "Gia Lai": "https://xskt.com.vn/rss-feed/gia-lai-xsgl.rss",
@@ -77,7 +77,7 @@ export default {
     selectedDateArray() {
       return Object.entries(this.selectedDate)
         .filter((i) => i[1] == true)
-        .map((i) => i[1]);
+        .map((i) => i[0]);
     },
     rssDates() {
       return Object.keys(this.selectedFeed || {});
