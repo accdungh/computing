@@ -77,7 +77,7 @@ export default {
     selectedDateArray() {
       return Object.entries(this.selectedDate)
         .filter((i) => i[1] == true)
-        .map((i) => i[0]);
+        .map((i) => i[1]);
     },
     rssDates() {
       return Object.keys(this.selectedFeed || {});
